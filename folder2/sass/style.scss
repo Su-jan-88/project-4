@@ -1,0 +1,324 @@
+@use 'var';
+
+* {
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.banner {
+    max-height: 54px;
+    padding: 12px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 54px;
+    gap: 32px;
+    border-bottom: 1px solid #676767;
+
+    .content {
+        gap: 16px;
+        max-height: 30px;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            border-right: 1px solid black;
+            padding: 4.5px 0px;
+            padding-right: 16px;
+            margin: 0 auto;
+
+            span {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .banner_icons {
+        display: flex;
+        justify-content: space-between;
+        max-height: 24px;
+        gap: 16px;
+        padding: 0px 16px;
+    }
+
+}
+
+.header_section {
+    height: 72px;
+    padding: 0px 64px;
+    border-bottom: 1px solid #676767;
+    justify-content: space-between;
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        max-height: 40px;
+        gap: 32px;
+
+        a {
+            gap: 32px;
+        }
+    }
+}
+
+.service_section {
+    background-color: var.$gray;
+    padding: 112px 64px;
+    width: 100%;
+    gap: 80px;
+    align-items: center;
+
+    .service_text {
+        max-height: 109px;
+        gap: 16px;
+
+        h2 {
+            height: 58px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 57.6px;
+            text-align: center;
+        }
+
+        p {
+            height: 27px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            align-items: center;
+        }
+
+    }
+
+    .card_div {
+        max-height: 1052px;
+        display: flex;
+        justify-content: space-between;
+        gap: 64px;
+        padding-top: 64px;
+
+        h5 {
+            height: 34px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33.6px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            padding: 20px 0px 10px 0px;
+        }
+    }
+
+    .second_cdiv {
+        max-height: 1052px;
+        display: flex;
+        justify-content: space-between;
+        gap: 64px;
+
+        h5 {
+            height: 34px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33.6px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            padding: 20px 0px 10px 0px;
+        }
+    }
+}
+
+.request_section {
+    background-color: var.$gray;
+    height: 956px;
+    padding: 112px 64px;
+    gap: 8px;
+
+    h5 {
+        width: 78px;
+        height: 24px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    h2 {
+        width: 351px;
+        height: 58px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    p {
+        width: 444px;
+        height: 27px;
+        font-weight: 400;
+        font-size: 18px;
+        color: var.$black;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        max-height: 80px;
+        gap: 24px;
+
+        label {
+            height: 24px;
+            width: 296px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        input {
+            width: 296px;
+            max-height: 48px;
+            padding: 12px;
+            gap: 8px;
+        }
+    }
+
+    .form {
+        display: flex;
+        justify-content: space-between;
+        max-height: 80px;
+        gap: 24px;
+
+        label {
+            height: 24px;
+            width: 296px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        select {
+            width: 296px;
+            max-height: 48px;
+            padding: 12px;
+            gap: 8px;
+        }
+    }
+
+    .form-check {
+        max-height: 37px;
+        padding: 16px 18px;
+        gap: 12px;
+    }
+
+    .button {
+        padding: 16px 0px;
+    }
+
+    div>img {
+        width: 552px;
+        height: 700px;
+        border-radius: 5px;
+    }
+}
+
+.footer_section {
+    max-height: 542px;
+    padding: 80px 64px;
+    gap: 80px;
+
+    .foot {
+        height: 212px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        .p1 {
+            height: 24px;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        input {
+            max-height: 48px;
+            border-radius: 5px;
+            padding: 12px;
+            gap: 8px;
+        }
+
+        .btn {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .p2 {
+            width: 500px;
+            height: 36px;
+            font-weight: 400;
+            font-size: 12px;
+            padding-top: 15px;
+        }
+
+    }
+
+    .ter {
+        p {
+            height: 24px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        li {
+            list-style: none;
+            padding: 8px 0px;
+
+            img {
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .last {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+
+        .last_section {
+            width: 195px;
+            height: 21px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .last_word {
+            display: flex;
+            justify-content: space-between;
+            gap: 0px 40px;
+            height: 21px;
+            font-weight: 400px;
+            font-size: 14px;
+            padding: 0px 20px;
+            text-decoration: underline;
+        }
+    }
+}
